@@ -1,0 +1,145 @@
+{
+  "info": {
+    "_postman_id": "a70cef17-4eff-4011-9880-c0875a9ed423",
+    "name": "AI-Agent",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21998047"
+  },
+  "item": [
+    {
+      "name": "migration",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "seeders",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "agent",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"query\": \"What is the highest order's person name with order details.\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/agent/query",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "agent",
+            "query"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "agent",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"query\": \"What is the highest order's person name with order details.\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/agent/query",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "agent",
+                "query"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "268"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"10c-B0GWJ0JDbN2I6dtQNpAdKQagjqc\""
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 24 Apr 2026 15:58:07 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"success\": true,\n    \"message\": \"Query result\",\n    \"data\": \"The person with the highest order is Raj Kumar. Their order (Order Number: ORD-001) has a total amount of 185000. The order status is pending and the payment status is unpaid. It was created on 2026-04-24 at 14:57:11.\"\n}"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": ""
+    }
+  ]
+}

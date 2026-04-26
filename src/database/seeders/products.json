@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics",
+    "brand": "Dell",
+    "description": "Dell XPS 15 (Intel i7, 16GB RAM, 512GB SSD)",
+    "price": 185000,
+    "stock": 8
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "brand": "Apple",
+    "description": "iPhone 15 (128GB)",
+    "price": 79900,
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "description": "Samsung Galaxy S23 (8GB RAM, 256GB)",
+    "price": 64999,
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Tablet",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "description": "Samsung Galaxy Tab S9",
+    "price": 74999,
+    "stock": 12
+  },
+  {
+    "id": 5,
+    "name": "Headphones",
+    "category": "Accessories",
+    "brand": "Sony",
+    "description": "Sony WH-1000XM5 Noise Cancelling Headphones",
+    "price": 29990,
+    "stock": 25
+  },
+  {
+    "id": 6,
+    "name": "Smartwatch",
+    "category": "Wearables",
+    "brand": "Apple",
+    "description": "Apple Watch Series 9",
+    "price": 41900,
+    "stock": 18
+  },
+  {
+    "id": 7,
+    "name": "Laptop",
+    "category": "Electronics",
+    "brand": "HP",
+    "description": "HP Pavilion 14 (Intel i5, 16GB RAM)",
+    "price": 62990,
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "name": "Mouse",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "description": "Logitech MX Master 3S Wireless Mouse",
+    "price": 9995,
+    "stock": 40
+  },
+  {
+    "id": 9,
+    "name": "Keyboard",
+    "category": "Accessories",
+    "brand": "Keychron",
+    "description": "Keychron K2 Mechanical Keyboard",
+    "price": 7499,
+    "stock": 30
+  },
+  {
+    "id": 10,
+    "name": "Monitor",
+    "category": "Electronics",
+    "brand": "LG",
+    "description": "LG 27-inch 4K UHD IPS Monitor",
+    "price": 32999,
+    "stock": 14
+  }
+]

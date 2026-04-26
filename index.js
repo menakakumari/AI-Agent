@@ -1,0 +1,14 @@
+import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
+
+dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+process.env.APP_PATH = __dirname;
+
+const { default: server } = await import("./src/server.js");
+
+server();

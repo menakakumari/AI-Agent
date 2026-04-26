@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Raj Kumar",
+    "email": "rajkumar@example.com",
+    "phone": "9876543210",
+    "date_of_birth": "1990-01-01",
+    "gender": "Male",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "email": "priya.sharma@example.com",
+    "phone": "9876543211",
+    "date_of_birth": "1992-05-14",
+    "gender": "Female",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": 3,
+    "name": "Amit Verma",
+    "email": "amit.verma@example.com",
+    "phone": "9876543212",
+    "date_of_birth": "1988-09-22",
+    "gender": "Male",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  },
+  {
+    "id": 4,
+    "name": "Neha Gupta",
+    "email": "neha.gupta@example.com",
+    "phone": "9876543213",
+    "date_of_birth": "1995-03-10",
+    "gender": "Female",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  },
+  {
+    "id": 5,
+    "name": "Rohit Singh",
+    "email": "rohit.singh@example.com",
+    "phone": "9876543214",
+    "date_of_birth": "1991-07-18",
+    "gender": "Male",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India"
+  },
+  {
+    "id": 6,
+    "name": "Anjali Mehta",
+    "email": "anjali.mehta@example.com",
+    "phone": "9876543215",
+    "date_of_birth": "1993-11-25",
+    "gender": "Female",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India"
+  },
+  {
+    "id": 7,
+    "name": "Vikram Patel",
+    "email": "vikram.patel@example.com",
+    "phone": "9876543216",
+    "date_of_birth": "1987-06-30",
+    "gender": "Male",
+    "city": "Surat",
+    "state": "Gujarat",
+    "country": "India"
+  },
+  {
+    "id": 8,
+    "name": "Sneha Reddy",
+    "email": "sneha.reddy@example.com",
+    "phone": "9876543217",
+    "date_of_birth": "1994-02-12",
+    "gender": "Female",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  },
+  {
+    "id": 9,
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra@example.com",
+    "phone": "9876543218",
+    "date_of_birth": "1989-08-05",
+    "gender": "Male",
+    "city": "Chandigarh",
+    "state": "Punjab",
+    "country": "India"
+  },
+  {
+    "id": 10,
+    "name": "Pooja Nair",
+    "email": "pooja.nair@example.com",
+    "phone": "9876543219",
+    "date_of_birth": "1996-12-20",
+    "gender": "Female",
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India"
+  }
+]
