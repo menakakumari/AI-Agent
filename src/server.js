@@ -45,6 +45,6 @@ export default async () => {
 */
 
 export default async function handler(req, res) {
-  await init();
+  await agent.init();
   return server(req, res);
 }
