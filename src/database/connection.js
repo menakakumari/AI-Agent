@@ -2,9 +2,10 @@ import path from "path";
 import { Kysely, SqliteDialect } from "kysely";
 import Database from "better-sqlite3";
 
-const { APP_PATH } = process.env;
+// const { APP_PATH } = process.env;
 
-const sqlite = new Database(path.join(APP_PATH, "sqlite/sqlite.db"), {
+// const sqlite = new Database(path.join(APP_PATH, "sqlite/sqlite.db"), {
+const sqlite = new Database("../../sqlite/sqlite.db"), {
   fileMustExist: false,
 });
 
