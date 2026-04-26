@@ -1,4 +1,3 @@
-/*
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -13,8 +12,3 @@ process.env.APP_PATH = __dirname;
 const { default: server } = await import("./src/server.js");
 
 server();
-*/
-
-import server from "./src/server.js";
-
-export default server;
