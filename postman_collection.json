@@ -1,16 +1,27 @@
 {
   "info": {
-    "_postman_id": "a70cef17-4eff-4011-9880-c0875a9ed423",
+    "_postman_id": "70cdc9ce-e25c-4fdc-8da6-47f74a2c869c",
     "name": "AI-Agent",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "21998047"
+    "_exporter_id": "53010283",
+    "_collection_link": "https://go.postman.co/collection/53010283-70cdc9ce-e25c-4fdc-8da6-47f74a2c869c?source=collection_link"
   },
   "item": [
     {
       "name": "migration",
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/migration/run",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "migration",
+            "run"
+          ]
+        }
       },
       "response": []
     },
@@ -18,7 +29,17 @@
       "name": "seeders",
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/seeders/run",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "seeders",
+            "run"
+          ]
+        }
       },
       "response": []
     },
@@ -29,7 +50,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"query\": \"What is the highest order's person name with order details.\"\r\n}",
+          "raw": "{\r\n    \"query\": \"Muje sabhi customers ke phone number and name chahiye\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -75,7 +96,7 @@
           },
           "status": "OK",
           "code": 200,
-          "_postman_previewlanguage": null,
+          "_postman_previewlanguage": "Text",
           "header": [
             {
               "key": "X-Powered-By",
