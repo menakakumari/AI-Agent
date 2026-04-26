@@ -35,16 +35,16 @@ server.use(express.json());
 server.get("/", (req, res) => res.send("AI Agent is running..."));
 server.use("/api", limiter, routes);
 
-/*
+
 export default async () => {
-  await agent.init();
+ // await agent.init();
   server.listen(PORT, IP, () => {
     console.log(`Server Listening on ${IP}:${PORT}`);
   });
 };
-*/
 
+/*
 export default async function handler(req, res) {
   await agent.init();
   return server(req, res);
-}
+}*/
