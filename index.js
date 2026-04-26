@@ -17,4 +17,5 @@ server();
 
 import server from "./src/server.js";
 
-export default server;
+server().then((e)=> console.log(e));
+// export default server;
